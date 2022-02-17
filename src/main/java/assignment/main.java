@@ -3,7 +3,7 @@ import java.util.*;
 public class main {
         public static void main(String[] args){
             ArrayList<Pair> mal = new ArrayList<>();
-            int amt_month = 0;
+            int amt_month = 0; //monthly amount
 
             while( amt_month >= 0 ){
 
@@ -66,8 +66,8 @@ class Pair{
 
     ArrayList<Integer> al;
     int am;
-    int twd;
-    int tld;
+    int twd; // total wins in a day
+    int tld; // total lost in a day
 
     public Pair(){}
     public Pair(int am, ArrayList<Integer> al, int twd, int tld){
